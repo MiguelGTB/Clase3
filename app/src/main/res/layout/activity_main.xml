@@ -14,17 +14,18 @@
         >
 
         <include
+            android:id="@+id/axel_cardview"
             layout="@layout/axel_cardview"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_columnWeight="1.7"
-
             android:layout_margin="5dp"
 
 
             />
 
         <include
+            android:id="@+id/xavier_cardview"
             layout="@layout/xavier_cardview"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
