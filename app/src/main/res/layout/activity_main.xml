@@ -11,8 +11,8 @@
         android:layout_width="222dp"
         android:layout_height="381dp"
         android:columnCount="2"
-        tools:layout_editor_absoluteX="-11dp"
-        tools:layout_editor_absoluteY="45dp">
+        tools:layout_editor_absoluteX="-9dp"
+        tools:layout_editor_absoluteY="16dp">
 
         <include layout="@layout/axel_cardview" />
 
