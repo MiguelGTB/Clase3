@@ -10,22 +10,22 @@
 
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
-        android:layout_height="412dp"
-        android:backgroundTint="@color/_27ba47"
+        android:layout_height="396dp"
+        android:backgroundTint="@color/azul_claro"
         android:elevation="7dp"
         app:cardCornerRadius="30dp">
 
 
         <ImageView
-            android:layout_width="153dp"
-            android:layout_height="255dp"
+            android:layout_width="match_parent"
+            android:layout_height="278dp"
             android:layout_gravity="center"
-            android:layout_marginTop="-50dp"
+            android:layout_marginTop="-30dp"
             android:src="@drawable/jude_sharp" />
 
         <TextView
             android:layout_width="match_parent"
-            android:layout_height="133dp"
+            android:layout_height="69dp"
             android:layout_gravity="bottom"
             android:text="@string/jude_sharp"
             android:textAlignment="center"

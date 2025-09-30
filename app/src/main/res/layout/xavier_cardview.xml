@@ -10,22 +10,22 @@
 
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
-        android:layout_height="344dp"
-        android:backgroundTint="@color/_27ba47"
+        android:layout_height="396dp"
+        android:backgroundTint="@color/azul_claro"
         android:elevation="7dp"
         app:cardCornerRadius="30dp">
 
 
         <ImageView
-            android:layout_width="172dp"
-            android:layout_height="284dp"
+            android:layout_width="match_parent"
+            android:layout_height="278dp"
             android:layout_gravity="center"
             android:layout_marginTop="-30dp"
             android:src="@drawable/xavier" />
 
         <TextView
             android:layout_width="match_parent"
-            android:layout_height="62dp"
+            android:layout_height="69dp"
             android:layout_gravity="bottom"
             android:text="@string/xavier_foster"
             android:textAlignment="center"
