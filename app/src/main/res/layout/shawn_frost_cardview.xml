@@ -11,21 +11,21 @@
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
         android:layout_height="396dp"
-        android:backgroundTint="@color/_27ba47"
+        android:backgroundTint="@color/AMARILLO1"
         android:elevation="7dp"
         app:cardCornerRadius="30dp">
 
 
         <ImageView
-            android:layout_width="172dp"
-            android:layout_height="269dp"
+            android:layout_width="match_parent"
+            android:layout_height="278dp"
             android:layout_gravity="center"
-            android:layout_marginTop="-50dp"
+            android:layout_marginTop="-30dp"
             android:src="@drawable/shawn_frost" />
 
         <TextView
             android:layout_width="match_parent"
-            android:layout_height="119dp"
+            android:layout_height="69dp"
             android:layout_gravity="bottom"
             android:text="@string/shawn_frost"
             android:textAlignment="center"
