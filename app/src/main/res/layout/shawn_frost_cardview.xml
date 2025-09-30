@@ -10,21 +10,22 @@
 
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="396dp"
+        android:backgroundTint="@color/_27ba47"
         android:elevation="7dp"
-        app:cardCornerRadius="30dp"
-        android:backgroundTint="@color/_27ba47">
+        app:cardCornerRadius="30dp">
 
 
         <ImageView
-            android:layout_width="350dp"
-            android:layout_height="454dp"
+            android:layout_width="172dp"
+            android:layout_height="269dp"
             android:layout_gravity="center"
+            android:layout_marginTop="-50dp"
             android:src="@drawable/shawn_frost" />
 
         <TextView
             android:layout_width="match_parent"
-            android:layout_height="114dp"
+            android:layout_height="119dp"
             android:layout_gravity="bottom"
             android:text="@string/shawn_frost"
             android:textAlignment="center"
