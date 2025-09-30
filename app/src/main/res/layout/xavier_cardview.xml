@@ -17,21 +17,21 @@
 
 
         <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_width="307dp"
+            android:layout_height="539dp"
             android:layout_gravity="center"
-            android:layout_margin="100dp"
             android:src="@drawable/Xavier_29_Artwork" />
 
         <TextView
             android:layout_width="match_parent"
-            android:layout_height="106dp"
+            android:layout_height="50dp"
             android:layout_gravity="bottom"
             android:text="@string/xavier_foster"
             android:textAlignment="center"
             android:textColor="@color/black"
             android:textSize="20dp"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            tools:ignore="RtlCompat" />
 
 
     </androidx.cardview.widget.CardView>
