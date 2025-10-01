@@ -2,6 +2,8 @@ package dam.pmdm.clase3
 
 import android.content.Intent
 import android.os.Bundle
+import android.view.Menu
+import android.view.MenuItem
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import dam.pmdm.clase3.databinding.ActivityMainBinding
@@ -26,4 +28,11 @@ class MainActivity : AppCompatActivity() {
         intent.putExtra("character", character)
         startActivity(intent)
     }
+
+    override fun onCreateOptionsMenu(menu: Menu?): Boolean {
+        menuInflater.inflate(R.menu.contextual_menu, menu)
+        return true
+    }
+
+
 }
