@@ -37,9 +37,10 @@ class InfoActivity : AppCompatActivity() {
             }
             "Shawn Frost" -> {
                 binding.imageview.setImageResource(R.drawable.shawn_frost)
-                binding.titleTextView.text = "Axel Blaze"
+                binding.titleTextView.text = "Shawn Frost"
             }
 
         }
     }
+
 }
