@@ -36,9 +36,15 @@
             android:layout_height="wrap_content"
             android:layout_columnWeight="1"
             android:layout_margin="5dp"
-
-
             />
+
+        <include
+            android:id="@+id/shawn_cardview"
+            layout="@layout/shawn_frost_cardview"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_margin="5dp" />
 
         <include
             android:id="@+id/xavier_cardview"
@@ -51,14 +57,6 @@
         <include
             android:id="@+id/jude_cardview"
             layout="@layout/jude_sharp_cardview"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_columnWeight="1"
-            android:layout_margin="5dp" />
-
-        <include
-            android:id="@+id/shawn_cardview"
-            layout="@layout/shawn_frost_cardview"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_columnWeight="1"
