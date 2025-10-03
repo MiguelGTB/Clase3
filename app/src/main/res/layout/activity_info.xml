@@ -9,9 +9,10 @@
     <ImageView
         android:id="@+id/imageview"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:src="@drawable/jude_sharp"
-        android:layout_margin="20dp">
+        android:layout_height="452dp"
+        android:layout_margin="20dp"
+        android:src="@drawable/jude_sharp">
+
     </ImageView>
 
 
