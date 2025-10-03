@@ -11,7 +11,6 @@
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
         android:layout_height="396dp"
-        android:backgroundTint="@color/AMARILLO1"
         android:elevation="7dp"
         app:cardCornerRadius="30dp">
 
@@ -19,19 +18,18 @@
             android:id="@+id/fondo"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:scaleType="centerCrop"
-            android:src="@drawable/fondo_axel"/>
-
+            android:src="@drawable/fondo_shawn"
+            android:scaleType="centerCrop"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="69dp"
             android:layout_gravity="bottom"
-            android:text="@string/axel_blaze1"
+            android:text="@string/shawn_frost"
             android:textAlignment="center"
             android:textColor="@color/white"
             android:textSize="20dp"
-            android:textStyle="bold" />
+            android:textStyle="bold"/>
 
 
     </androidx.cardview.widget.CardView>
