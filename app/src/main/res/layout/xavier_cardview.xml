@@ -17,11 +17,11 @@
 
 
         <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="278dp"
-            android:layout_gravity="center"
-            android:layout_marginTop="-30dp"
-            android:src="@drawable/xavier" />
+            android:id="@+id/fondo"
+            android:layout_width="wrap_content"
+            android:layout_height="407dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/fondo_xavier" />
 
         <TextView
             android:layout_width="match_parent"
@@ -29,7 +29,7 @@
             android:layout_gravity="bottom"
             android:text="@string/xavier_foster"
             android:textAlignment="center"
-            android:textColor="@color/black"
+            android:textColor="@color/white"
             android:textSize="20dp"
             android:textStyle="bold"
             tools:ignore="RtlCompat" />
